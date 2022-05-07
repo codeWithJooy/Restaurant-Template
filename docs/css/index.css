@@ -1,0 +1,812 @@
+@font-face{
+    font-family: bebas;
+    src:url('../Fonts/bebas_neue/BebasNeue-Regular.ttf')
+}
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+p{
+    line-height: 26px;
+    letter-spacing: 00.5px;
+    
+}
+.main{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1300px;
+    font-size: 15px;
+    color:white;
+    font-family: bebas;
+}
+.main-container{
+    width:100%;
+}
+.header{
+    position: relative;
+    width:100%;
+    
+    min-height: 650px;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0, 0),
+        rgba(0,0,0, 100)
+      ),url(../img/rest_1.jpg); 
+    background-size: cover;
+}
+.header-top{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    width:100%;
+    border-bottom:1px dashed white;
+    height:50px;
+    padding:0px 120px;
+}
+.res-phone{
+     width:30%px;
+     display: flex;
+
+}
+.res-font-image{
+    width:20px;
+    
+}
+.res-phone-number{
+    width:100px;
+    margin-left: 10px;
+}
+.res-time{
+    position: absolute;
+    display: flex;
+    right: 120px;
+   
+}
+
+.header-bottom{
+    position: relative;;
+    width:100%;
+    padding:20px 120px;
+    height:100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px dashed white;
+}
+.header-bottom .logo{
+    position: relative;
+    top:-15px;
+    width:100px;
+    height:100px;
+}
+.header-bottom .logo img{
+    width:100%;
+    height:100%;
+}
+.header-links{
+    position: absolute;
+    right:120px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-link-units{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.header-intro{
+    height:500px;
+    width:100%;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+}
+.header-intro-container{
+    
+    width:70%;
+    padding:20px;
+}
+.intro-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.intro-title h1{
+    font-size: 56px;
+    width:100%''
+}
+.intro-buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.intro-buttons button{
+    padding:15px 25px;
+    border-radius: 25px;
+    margin: 5px 10px;
+    border:none;
+}
+.intro-order{
+    background: #9b2226;
+    color:white;
+    border:2px solid white!important;
+}
+.intro-menu{
+    background: white;
+    color:#9b2226;
+    border:2px solid #9b2226!important;
+}
+
+/*======================================
+          We_are_section starts here
+=======================================*/
+.we_are_section{
+    width:100%;
+    min-height: 400px;
+    padding:40px 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+}
+.we_text{
+     width:50%;
+
+}
+.we_text_top{
+    width:120px;
+    height:40px;
+    border-radius: 20px;
+    background-color: #9b2226;
+    color:white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.we_text_title p{
+    font-size: 45px;
+    color:black;
+}
+.we_text_para{
+    font-size: 14px;
+    color:grey;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+button.we_text_button{
+    width:120px;
+    height:50px;
+    color:#ca6702;
+    border:2px solid #ca6702;
+    background: transparent;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.we_image{
+    width:50%;
+}
+/*====================================
+           We_are_section ends here
+====================================*/
+/*====================================
+           special_section starts here
+====================================*/
+.special_section{
+    width:100%;
+    min-height: 600px;
+}
+.special_parallex{
+     /* The image used */
+     background: linear-gradient(
+        to bottom,
+        rgba(0,0,0, 0),
+        rgba(0,0,0, 100)
+      ),url(../img/rest_2.jpg);
+
+  min-height: 600px; 
+  background-attachment: fixed;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:40px 120px;
+ 
+ 
+}
+.parallex_top{
+    width:100%;
+    height: 60px!important;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.special_parallex_title{
+    position: relative;
+    width:100%;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color:white;
+}
+.parallex_card_section{
+    width:100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parallex_card_unit{
+    width:30%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px lightgrey;
+    margin-bottom: 30px;
+}
+.parallex_card_img{
+    width:100%;
+    height:200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.parallex_card_img img{
+    width:100%;
+    height:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.parallex_card_text{
+    width:100%;
+    min-height: 150px;
+    background: white;
+    padding:10px 0px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;    
+}
+.para_card_title{
+    font-size: 22px;
+    font-weight: bold;
+    color:black;
+    text-align: center;
+}
+.para_card_cost{
+    font-size: 18px;
+    font-weight: bold;
+    color:#ae2012;
+    text-align: center;
+    margin-top: 20px;
+}
+.para_card_button{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.para_card_button button{
+    width:40%;
+    height:40px;
+    border-radius: 20px;
+    border:2px solid #ee9b00;
+    background: transparent;
+    cursor: pointer;
+}
+/*====================================
+           special_section ends here
+====================================*/
+/*=========================================
+           Gallery_section starts here
+==========================================*/
+.gallery_section{
+    width:100%;
+    min-height:500px;
+    background: white;
+    color:black;
+    padding: 40px 120px 40px;
+}
+.gallery_section .we_text_top{
+    width:200px;
+    height:40px;
+}
+.gallery_section .special_parallex_title{
+    color:black;
+}
+.gallery_tabs{
+    width:100%;
+    padding:20px 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.gallery_tabs_unit{
+    border:none;
+    box-shadow: 0px 5px 30px 0px rgba(148, 146, 245, 0.15);
+    min-width:120px;
+    height:50px;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    transition: all 0.5s ease-in-out 0s;
+    cursor: pointer;
+
+}
+.gallery_tabs_unit:hover{
+    background-color: #ee9b00;
+    color:#fff;
+}
+.active_gallery_tab{
+    background-color: #ee9b00;
+    color:#fff;
+}
+.gallery_pics_container{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gallery_pics{
+    width:30%;
+    height:250px;
+    margin-bottom: 20px;
+}
+.gallery_pics img{
+    width:100%;
+    height:100%;
+}
+.gallery_button{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery_button button{
+    width:180px;
+    height:60px;
+    border-radius: 20px;
+    border:2px solid #ee9b00;
+    background: transparent;
+    color: #ee9b00;
+    transition: all .9s;
+    cursor: pointer;
+}
+.gallery_button button:hover{
+    background: #ee9b00;
+    color: white;
+}
+/*=========================================
+           Gallery_section ends here
+==========================================*/
+/*=========================================
+           Testimonial section starts here
+==========================================*/
+.testimonial_section{
+    width:100%;
+    min-height: 600px;
+}
+.testimonial_para{
+     /* The image used */
+     background: linear-gradient(
+        to bottom,
+        rgba(0,0,0, 0),
+        rgba(0,0,0, 100)
+      ),url(../img/rest_2.jpg);
+
+  min-height: 600px; 
+  background-attachment: fixed;
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding:40px 120px;
+}
+.testimonial_pic{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+}
+.testimonial_pic img{
+    width:150px;
+    height:150px;
+    border:4px solid #fff;
+    border-radius: 50%;
+}
+.testimonial_text{
+    padding:20px 100px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 26px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.testimonial_name{
+    display: flex;
+    justify-content: center;
+    line-height: 1.5;
+}
+.testimonial_starts{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+/*=========================================
+           Testimonial section ends here
+==========================================*/
+/*=========================================
+           Member section starts here
+==========================================*/
+.members{
+    width:100%;
+    min-height: 600px;
+    background: white;
+    color:black;
+    padding:40px 120px;
+}
+.members .special_parallex_title p{
+    color:black;
+}
+.members_pics_container{
+    width:100%;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.member_pics_unit{
+    width:23%;
+}
+.member_pics{
+    width:100%;
+    height:300px;
+    border:4px solid #ee9b00;
+    padding:10px;
+}
+.member_pics img{
+    width:100%;
+    height:100%;
+}
+.member_details{
+    padding:30px 10px;
+    text-align: center;
+}
+.member_details p{
+    color: #ee9b00;
+}
+/*=========================================
+           Member section ends here
+==========================================*/
+/*=========================================
+           Blog section starts here
+==========================================*/
+/*=========================================
+           Blog section ends here
+==========================================*/
+/*=========================================
+           Contact Us section starts here
+==========================================*/
+.contact_us{
+    /* The image used */
+    background: linear-gradient(
+       to bottom,
+       rgba(0,0,0, 0),
+       rgba(0,0,0, 100)
+     ),url(../img/rest_2.jpg);
+
+ min-height: 600px; 
+ background-attachment: fixed;
+ background-position: cover;
+ background-repeat: no-repeat;
+ background-size: cover;
+ padding:40px 120px;
+}
+.contact_form{
+    width:100%;
+    min-height:300px;
+    background: white;
+    margin-top: 60px;
+    border-radius: 20px;
+    padding:30px 30px;
+}
+.contact_unit{
+    width:100%;
+    min-height: 50px;
+    margin: 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.contact_sub_small{
+    width:30%;
+    height:40px;
+    padding:5px 20px;
+    border:1px solid gray;
+    border-bottom: 4px solid #ee9b00;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: centers;
+}
+.contact_sub_small input{
+    border: none;
+    background: transparent;
+    outline:none;
+}
+.contact_sub_large{
+    width:100%;
+    height:120px;
+    padding:10px 20px;
+    border-radius: 5px;
+    border:1px solid grey;
+    border-bottom:4px solid #ee9b00;
+}
+.contact_sub_large textarea{
+    width:100%;
+    height:100%;
+    border:none;
+    outline:none;
+    color:grey;
+}
+.contact_unit button{
+    width:140px;
+    height:40px;
+    font-size: 14px;
+    background: transparent;
+    border-radius: 20px;
+    color:#ee9b00;
+    border:2px solid #ee9b00;
+    margin-top: 10px;
+}
+/*=========================================
+           Contact Us section ends here
+==========================================*/
+/*=========================================
+           Footer section starts here
+==========================================*/
+.footer{
+    width:100%;
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    padding: 40px 120px;
+}
+.footer_section{
+    width:33%;
+    padding:10px 10px 10px 0px;
+}
+.footer_header{
+    font-size: 22px;
+    color: #ee9b00;
+    margin-bottom: 40px;
+}
+.contact_details_unit{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.contact_details_unit img{
+    margin-right: 10px;
+    height:14px;
+    width:14px;
+}
+.contact_high{
+    color:#ee9b00;
+}
+.footer_input{
+    width:100%;
+    height:40px;
+    padding:10px 20px;
+    border-radius: 20px;
+    border-bottom: 2px solid #ee9b00;
+}
+.footer_input input{
+    background: transparent;
+    border:none;
+    width:100%;
+    height:100%;
+    outline:none;
+}
+.footer_button{
+    width:100%;
+    height:40px;
+    border-radius: 20px;
+    border:2px solid white;
+    color:white;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    margin-top: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.footer_button p{
+    margin-right: 10px;
+}
+.footer_button:hover{
+    background-color: #ee9b00;
+    border:2px solid #ee9b00;
+}
+/*=========================================
+           Footer section ends here
+==========================================*/
+
+/*=========================================
+           Menu section Starts here
+==========================================*/
+.menu{
+    width:100%;
+    min-height:600px;
+    padding:40px 120px;
+    background: white;
+}
+.menu .special_parallex_title p{
+    color:black;
+}
+.menu_items{
+    width:100%;
+    min-height:50px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:4px 300px;
+    margin-top: 40px;
+    border-bottom: 4px solid #ae2012;
+}
+.menu_items_unit{
+    width:70px;
+    height:70px;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu_items_unit img{
+    width:50%;
+    height:50%;
+}
+.menu_items_unit_active{
+    background: #ee9b00;
+}
+
+.menu_container{
+    width:100%;
+    min-height:50px;
+    padding:20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu_unit{
+    width:48%;
+    min-height:40px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px dotted grey;
+    padding:5px 0px 10px; 
+}
+.menu_text{
+    width:80%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.menu_text_title{
+    color:#9b2226;
+    text-transform: capitalize!important;
+    font-weight: bold;
+}
+
+.menu_text_descriptions{
+    color:grey;
+    font-size: 12px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+}
+.menu_price{
+    width:20%;
+    background-color: #ee9b00;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*=========================================
+           Menu section ends here
+==========================================*/
+/*=========================================
+           Blog section starts here
+==========================================*/
+.blog{
+    width:100%;
+    min-height:400px;
+    padding:40px 120px;
+    background: #fff6f6;
+}
+.blog .special_parallex_title p{
+    color:black;
+}
+.blog_container{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding:40px 0px 10px;
+}
+.blog_container_unit{
+    width:32%;
+    min-height:50px;
+    border-radius:20px;
+    box-shadow: 0 0 5px lightgrey;
+}
+.blog_pic{
+    width:100%;
+    height:250px;
+}
+.blog_pic img{
+    width:100%;
+    height:100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.blog_text{
+    width:100%;
+    min-height:200px;
+    padding:20px;
+    background: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.blog_text_title{
+    color:black;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.blog_text_description{
+    color:grey;
+    font-size:13px;
+}
+.blog_extra{
+    width:100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.blog_date{
+    width:50%;
+    color:black;
+    font-size:12px;
+}
+.blog_button button{
+    width:100px;
+    height:40px;
+   background-color: #9b2226;
+   color:white;
+   border:none;
+}
+/*=========================================
+           Blog section ends here
+==========================================*/
